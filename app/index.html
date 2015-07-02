@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title></title>
+        <script src="bower_components/requirejs/require.js" data-main="js/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/site.css" />
+        <script type="text/javascript">
+            var setDisplay = function(id, display) {
+                var el = document.getElementById(id);
+                if (el) {
+                    el.style.display = display;
+                }
+            }
+            window.setTimeout(function() {
+                setDisplay('please-wait', 'none');
+                setDisplay('routing-is-broken', '');
+            }, 10000);
+        </script>
+    </head>
+    <body>
+        <div id="content" data-ng-view>
+            <div id="please-wait">
+                Please wait...
+            </div>
+            <div id="routing-is-broken" style="display: none;">
+                If you can read this then routing isn't working.
+            </div>
+        </div>
+    </body>
+</html>

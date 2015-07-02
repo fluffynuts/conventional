@@ -30,3 +30,6 @@ bower_components
 # VIM
 *.swp
 *.swo
+
+# minified output
+dist

@@ -1,0 +1,23 @@
+{
+  "name": "conventional",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fluffynuts/conventional",
+  "authors": [
+    "Davyd McColl <davydm@gmail.com>"
+  ],
+  "description": "An Angular/RequireJS/Karma/Gulp/Jasmine starter kit",
+  "license": "BSD",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.1",
+    "angular-route": "~1.4.1",
+    "requirejs": "~2.1.18",
+    "jquery": "~2.1.4"
+  }
+}
